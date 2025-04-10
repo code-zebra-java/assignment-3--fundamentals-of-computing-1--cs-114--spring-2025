@@ -8,6 +8,8 @@ public class RunMatrix {
     int userInput = scan.nextInt();
 
     Matrix myMatrix = new Matrix(userInput);
+
+    //testing the different methods of the class
     myMatrix.populateMatrix();
     myMatrix.printMatrix();
 
