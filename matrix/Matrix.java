@@ -31,7 +31,7 @@ public class Matrix {
     }
   }
 
-  //Prints a matrix whatever a matrix holds
+  //Prints whatever a matrix holds
    public void printMatrix(){
     int xDiagonal = 0;
     int yDiagonal = array[0].length;
