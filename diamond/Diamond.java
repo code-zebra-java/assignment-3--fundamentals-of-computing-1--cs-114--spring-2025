@@ -86,9 +86,6 @@ public class Diamond {
         System.out.print(" ");
       }
       System.out.print("*");
-
-
     }
-
   }
 }
