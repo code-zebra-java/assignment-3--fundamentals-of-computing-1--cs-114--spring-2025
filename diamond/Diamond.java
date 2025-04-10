@@ -5,7 +5,7 @@ public class Diamond {
     Scanner scan = new Scanner(System.in);
 
     System.out.print("Please type in a number to create a diamond:");
-    int userInput = scan.nextInt;
+    int userInput = scan.nextInt();
 
     //Choice for odd numbers
     if (userInput % 2 == 1){
@@ -24,7 +24,7 @@ public class Diamond {
         }
         System.out.print("\n");
       }
-      spaceAmount++;
+      spaceAmount+=2;
 
       //prints the second half of the diamond
       for(int i = userInput-2; i > 0; i-=2){
@@ -48,7 +48,7 @@ public class Diamond {
       for(int i = spaceAmount; i > 0; i--){
         System.out.print(" ");
       }
-      System.out.print("*");
+      System.out.println("*");
       spaceAmount--;
 
       //prints the rest of the first half of the diamond
@@ -64,7 +64,7 @@ public class Diamond {
         }
         System.out.print("\n");
       }
-      spaceAmount += 2;
+      spaceAmount += 4;
 
       //prints the second half of the diamond without the last star
       for(int i = userInput-2; i > 0; i-=2){
@@ -82,7 +82,7 @@ public class Diamond {
 
       //prints the last star
       spaceAmount++;
-      for(int i = spaceAmount; i > 0; i--){
+      for(int i = spaceAmount-2; i > 0; i--){
         System.out.print(" ");
       }
       System.out.print("*");
